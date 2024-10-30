@@ -35,9 +35,7 @@ class Mdraw(Node):
             
         
         self.turtle_mvr.publish(msg)
-        time.sleep(10)
         
-
         self.step += 1
         if self.step == 8:
             self.destroy_node()
